@@ -1,0 +1,81 @@
+div {
+    margin: 2em;
+}
+
+/* Yleinen tyylit */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Vaaleanpunainen taustaväri */
+    color: #333; /* Tumma teksti */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Keskittää kaikki tekstisisällöt */
+}
+
+#container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fce4ec; /* Sama vaaleanpunainen taustaväri */
+    border: 2px solid #f48fb1; /* Vaaleanpunainen reunus */
+    border-radius: 10px; /* Pyöristetyt kulmat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Pehmeä varjo */
+}
+
+h3 {
+    color: #ec407a; /* Pinkki otsikko */
+    font-weight: bold; /* Lihavoitu otsikko */
+    margin-bottom: 20px; /* Väliotsikon ja muun sisällön välillä */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Keskittää lomakkeen sisällöt */
+    margin: 0 auto;
+}
+
+output {
+    font-size: 1.5em;
+    margin: 0 5px;
+    font-weight: bold; /* Lihavoitu output */
+}
+
+input {
+    width: 60px;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid #ec407a; /* Pinkki reunus */
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    margin-bottom: 10px;
+    font-weight: bold; /* Lihavoitu input-teksti */
+}
+
+button {
+    background-color: #ec407a; /* Pinkki taustaväri */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Lihavoitu painike-teksti */
+}
+
+button:hover {
+    background-color: #d81b60; /* Tumma pinkki hover-tila */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center; /* Keskittää tulokset */
+}
+
+.result p {
+    margin: 5px 0;
+    font-weight: bold; /* Lihavoitu tulosten teksti */
+}
